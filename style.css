@@ -10,7 +10,17 @@ section, summary, time, mark, audio, video {
     border:0;
     font: inherit; 
     font-size: 100%; 
-    font-family: "Microsoft YaHei",Verdana,Arial,Helvetica,"SimSun","SimHei",sans-serif;
+    font-family: "Microsoft YaHei",Helvetica,Verdana,Arial,"SimSun","SimHei",sans-serif;
+   /*  font-family:Lucida Sans Unicode,
+                Hiragino Sans GB, 
+                WenQuanYi Micro Hei, 
+                Helvetica,
+                Microsoft YaHei,
+                Verdana, 
+                Aril, 
+                Arial,
+    */             sans-serif;
+    -webkit-font-smoothing:antialiased;                
     vertical-align: baseline; 
     outline: none;
     
