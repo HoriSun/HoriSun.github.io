@@ -1,7 +1,7 @@
 /******************************************************************************
 	初期設定
 ******************************************************************************/
-var swfUrl = "file:///F://argo/2014-autumn/image-collection/honehone_clock_tr.swf"; //在部署时这里填写swf文件的绝对地址
+var swfUrl = "https://github.com/HoriSun/HoriSun.github.io/raw/master/honehone_clock_tr.swf"; //在部署时这里填写swf文件的绝对地址
 
 var swfTitle = "honehoneclock";
 
