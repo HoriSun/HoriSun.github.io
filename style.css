@@ -103,7 +103,7 @@ div.icons00-man{
     width: 33px; 
     height: 30px; 
     padding-right: 5px;
-    background: url(file:///F:/argo/2014-autumn/icons00.png) -118px 335px repeat;
+    background: url(https://raw.githubusercontent.com/HoriSun/HoriSun.github.io/master/icons00.png) -118px 335px repeat;
 }
 
 .hexbox{
@@ -255,7 +255,7 @@ a.hexagon{
     height: 110px;
     width: 122px;
     margin: 0 auto;
-    background: url(file:///F:/argo/2014-autumn/hex-icons.png);
+    background: url(https://raw.githubusercontent.com/HoriSun/HoriSun.github.io/master/hex-icons.png);
 }
 
 .shell{
