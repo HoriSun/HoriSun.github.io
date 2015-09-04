@@ -23,6 +23,17 @@ var center = {
     y: c.height/2,
 };
 
+function onresize(){
+    wsize = getwindowsize();
+    c.height = Math.min(wsize.x, wsize.y);
+    c.width = c.height;
+    center.x = c.width/2;
+    center.y = c.height/2;
+}
+
+window.addEventListener("resize",onresize,false);
+onresize();
+
 function urlparser(){
     var ret = {};
     var option = unescape(window.location.href);
