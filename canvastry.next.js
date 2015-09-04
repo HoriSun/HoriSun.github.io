@@ -13,7 +13,7 @@ var getwindowsize = function(){
 
 
 var c=document.getElementById("myCanvas");
-var wsize = getWindowsize();
+var wsize = getwindowsize();
 c.height = Math.min(wsize.x, wsize.y);
 c.width = c.height;
 var cxt=c.getContext("2d");
