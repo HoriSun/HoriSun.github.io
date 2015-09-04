@@ -1,5 +1,21 @@
+var getwindowsize = function(){
+    ret = {};
+    ret.x = window.innerWidth
+        || document.documentElement.clientWidth
+        || document.body.clientWidth;
+
+    ret.y = window.innerHeight
+        || document.documentElement.clientHeight
+        || document.body.clientHeight;
+    
+    return ret; 
+}
+
 
 var c=document.getElementById("myCanvas");
+var wsize = getWindowsize();
+c.height = Math.min(wsize.x, wsize.y);
+c.width = c.height;
 var cxt=c.getContext("2d");
 
 var center = {
